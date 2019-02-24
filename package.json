@@ -1,0 +1,25 @@
+{
+  "name": "jk-phone",
+  "version": "1.0.0",
+  "description": "전세계 핸드폰 번호를 판매하는 가상 서비스입니다. (실습 및 공부용입니다.   ><)",
+  "main": "index.js",
+  "repository": "https://github.com/ynifamily3/jk-phone",
+  "author": "Jonekeun Choi <ynifamily3@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/express": "^4.16.1",
+    "@types/node": "^11.9.5",
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts"
+  }
+}
