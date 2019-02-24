@@ -7,9 +7,13 @@
   "author": "Jonekeun Choi <ynifamily3@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
-    "morgan": "^1.9.1"
+    "express-flash": "^0.0.2",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3"
   },
   "devDependencies": {
     "@types/dotenv": "^6.1.0",
